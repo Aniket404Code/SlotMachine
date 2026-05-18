@@ -22,11 +22,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
@@ -36,7 +40,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\SlotSymbolDatabase.cs",
               "ToolTip": "E:\\Unity Projects\\UnderPin_ Assignment\\SlotMachine\\Assets\\Scripts\\SlotSymbolDatabase.cs",
               "RelativeToolTip": "Assets\\Scripts\\SlotSymbolDatabase.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-18T06:19:32.545Z",
               "EditorCaption": ""
@@ -49,9 +53,10 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\ReelController.cs",
               "ToolTip": "E:\\Unity Projects\\UnderPin_ Assignment\\SlotMachine\\Assets\\Scripts\\ReelController.cs",
               "RelativeToolTip": "Assets\\Scripts\\ReelController.cs",
-              "ViewState": "AgIAAHsAAAAAAAAAAAAAALAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAHgAAAAAAAAAAIBJwLAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T06:19:30.991Z"
+              "WhenOpened": "2026-05-18T06:19:30.991Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -63,7 +68,8 @@
               "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
               "ViewState": "AgIAALQAAAAAAAAAAAAwwJgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T06:19:26.793Z"
+              "WhenOpened": "2026-05-18T06:19:26.793Z",
+              "EditorCaption": ""
             }
           ]
         },
