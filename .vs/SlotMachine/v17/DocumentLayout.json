@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "E:\\Unity Projects\\UnderPin_ Assignment\\SlotMachine\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Unity Projects\\UnderPin_ Assignment\\SlotMachine\\Assets\\Scripts\\SlotSymbolDatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\SlotSymbolDatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Unity Projects\\UnderPin_ Assignment\\SlotMachine\\Assets\\Scripts\\ReelController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\ReelController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Unity Projects\\UnderPin_ Assignment\\SlotMachine\\Assets\\Scripts\\GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Unity Projects\\UnderPin_ Assignment\\SlotMachine\\Assets\\Scripts\\SlotSymbolDatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\SlotSymbolDatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,40 +30,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "SlotSymbolDatabase.cs",
               "DocumentMoniker": "E:\\Unity Projects\\UnderPin_ Assignment\\SlotMachine\\Assets\\Scripts\\SlotSymbolDatabase.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SlotSymbolDatabase.cs",
               "ToolTip": "E:\\Unity Projects\\UnderPin_ Assignment\\SlotMachine\\Assets\\Scripts\\SlotSymbolDatabase.cs",
               "RelativeToolTip": "Assets\\Scripts\\SlotSymbolDatabase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAswBUAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T06:19:32.545Z"
+              "WhenOpened": "2026-05-18T06:19:32.545Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ReelController.cs",
               "DocumentMoniker": "E:\\Unity Projects\\UnderPin_ Assignment\\SlotMachine\\Assets\\Scripts\\ReelController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ReelController.cs",
               "ToolTip": "E:\\Unity Projects\\UnderPin_ Assignment\\SlotMachine\\Assets\\Scripts\\ReelController.cs",
               "RelativeToolTip": "Assets\\Scripts\\ReelController.cs",
-              "ViewState": "AgIAAMUAAAAAAAAAAADwv9kAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAAALAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-18T06:19:30.991Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "GameManager.cs",
               "DocumentMoniker": "E:\\Unity Projects\\UnderPin_ Assignment\\SlotMachine\\Assets\\Scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
               "ToolTip": "E:\\Unity Projects\\UnderPin_ Assignment\\SlotMachine\\Assets\\Scripts\\GameManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
-              "ViewState": "AgIAAJkBAAAAAAAAAAAswK4BAAABAAAAAAAAAA==",
+              "ViewState": "AgIAALQAAAAAAAAAAAAwwJgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T06:19:26.793Z"
+              "WhenOpened": "2026-05-18T06:19:26.793Z",
+              "EditorCaption": ""
             }
           ]
         },

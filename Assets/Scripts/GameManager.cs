@@ -66,10 +66,6 @@ public class GameManager : MonoBehaviour
 
     #region Game Flow
 
-    /// <summary>
-    /// Starts the slot machine game if not already spinning.
-    /// Deducts bet amount and begins spin sequence.
-    /// </summary>
     public void StartGame()
     {
         if (isSpinning)
@@ -91,10 +87,6 @@ public class GameManager : MonoBehaviour
         StartCoroutine(SpinSequenceRoutine());
     }
 
-    /// <summary>
-    /// Controls the full spin sequence:
-    /// lever animation -> spin reels -> stop reels -> check result.
-    /// </summary>
     private IEnumerator SpinSequenceRoutine()
     {
         isSpinning = true;
@@ -134,9 +126,6 @@ public class GameManager : MonoBehaviour
 
     #region Win/Lose Logic
 
-    /// <summary>
-    /// Checks if all reel center symbols match.
-    /// </summary>
     private void CheckWin()
     {
         int reel1Index = reel1.CurrentCenterIndex;
@@ -165,9 +154,6 @@ public class GameManager : MonoBehaviour
         Debug.Log($"Player Coins: {playerCoins}");
     }
 
-    /// <summary>
-    /// Handles payout and UI updates when player wins.
-    /// </summary>
     private void HandleWin(int symbolIndex)
     {
         int payout =
@@ -203,9 +189,6 @@ public class GameManager : MonoBehaviour
         );
     }
 
-    /// <summary>
-    /// Handles lose state.
-    /// </summary>
     private void HandleLose()
     {
         winText.text = "NO WIN";
@@ -219,10 +202,6 @@ public class GameManager : MonoBehaviour
 
     #region Lever Animation
 
-    /// <summary>
-    /// Plays lever pull and return animation.
-    /// Includes scaling for more impact.
-    /// </summary>
     private IEnumerator AnimateLeverRoutine()
     {
         Quaternion startRotation = leverPivot.localRotation;
@@ -289,9 +268,7 @@ public class GameManager : MonoBehaviour
 
     #region Result Animations
 
-    /// <summary>
     /// Displays result message and triggers animation.
-    /// </summary>
     private IEnumerator ShowResultRoutine(
         string message,
         bool isWin
@@ -322,9 +299,7 @@ public class GameManager : MonoBehaviour
         yield return StartCoroutine(FadeOutResult(rect));
     }
 
-    /// <summary>
     /// Creates a pop + bounce effect for win text.
-    /// </summary>
     private IEnumerator PlayWinAnimation(RectTransform rect)
     {
         float time = 0f;
@@ -373,9 +348,7 @@ public class GameManager : MonoBehaviour
         rect.localRotation = Quaternion.identity;
     }
 
-    /// <summary>
     /// Fades out result text smoothly.
-    /// </summary>
     private IEnumerator FadeOutResult(RectTransform rect)
     {
         float fade = 1f;
@@ -399,9 +372,6 @@ public class GameManager : MonoBehaviour
 
     #region UI
 
-    /// <summary>
-    /// Initializes result text hidden state.
-    /// </summary>
     private void InitializeResultText()
     {
         resultText.rectTransform.localScale = Vector3.zero;
@@ -412,9 +382,6 @@ public class GameManager : MonoBehaviour
         resultText.color = color;
     }
 
-    /// <summary>
-    /// Updates all static UI values.
-    /// </summary>
     private void UpdateUI()
     {
         balanceText.text = $"BALANCE : {playerCoins}";

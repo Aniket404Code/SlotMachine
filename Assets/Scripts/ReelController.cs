@@ -32,14 +32,8 @@ public class ReelController : MonoBehaviour
 
     #region Public Properties
 
-    /// <summary>
-    /// Current symbol displayed in the center slot.
-    /// </summary>
     public int CurrentCenterIndex { get; private set; }
 
-    /// <summary>
-    /// Provides database access safely.
-    /// </summary>
     public SlotSymbolDatabase Database => database;
 
     #endregion
@@ -69,9 +63,7 @@ public class ReelController : MonoBehaviour
 
     #region Spin Logic
 
-    /// <summary>
-    /// Starts reel spinning.
-    /// </summary>
+
     public void StartSpin()
     {
         isSpinning = true;
@@ -87,18 +79,11 @@ public class ReelController : MonoBehaviour
         spinCoroutine = StartCoroutine(SpinRoutine());
     }
 
-    /// <summary>
-    /// Begins smooth reel stop.
-    /// </summary>
     public void StopSpin()
     {
         StartCoroutine(SlowStopRoutine());
     }
 
-    /// <summary>
-    /// Main reel movement loop.
-    /// Continuously moves symbols downward.
-    /// </summary>
     private IEnumerator SpinRoutine()
     {
         int currentIndex = 0;
@@ -129,9 +114,6 @@ public class ReelController : MonoBehaviour
         }
     }
 
-    /// <summary>
-    /// Updates visible slot images based on reel index.
-    /// </summary>
     private void UpdateVisibleSymbols(int currentIndex)
     {
         topSlot.sprite =
@@ -153,9 +135,6 @@ public class ReelController : MonoBehaviour
             GetWrappedIndex(currentIndex);
     }
 
-    /// <summary>
-    /// Gradually slows reel until fully stopped.
-    /// </summary>
     private IEnumerator SlowStopRoutine()
     {
         while (currentSpeed > 0.2f)
@@ -178,9 +157,6 @@ public class ReelController : MonoBehaviour
 
     #region Utility Methods
 
-    /// <summary>
-    /// Randomly selects a symbol sprite.
-    /// </summary>
     private Sprite GetRandomSprite()
     {
         int randomIndex =
@@ -189,10 +165,6 @@ public class ReelController : MonoBehaviour
         return database.symbols[randomIndex];
     }
 
-    /// <summary>
-    /// Wraps index safely within symbol array bounds.
-    /// Prevents negative or overflow indexing.
-    /// </summary>
     private int GetWrappedIndex(int index)
     {
         if (index < 0)
@@ -203,10 +175,6 @@ public class ReelController : MonoBehaviour
         return index % database.symbols.Length;
     }
 
-    /// <summary>
-    /// Sets random symbols at startup
-    /// for visual variety.
-    /// </summary>
     private void InitializeSymbols()
     {
         topSlot.sprite = GetRandomSprite();
