@@ -8,9 +8,6 @@ and payout simulation based on winning combinations.
 A WebGL build issue was encountered where the game was not displaying properly in the browser environment.
 To ensure smooth testing and gameplay experience, an APK build has been included with the submission instead of the WebGL build.
 
-# Platform
-Android APK Included
-Built with Unity
 
 # Thought Process / Approach
 
