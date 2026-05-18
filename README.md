@@ -4,9 +4,14 @@ This project is a basic Slot Machine Game developed in Unity as part of the assi
 The game includes smooth reel spinning animations, randomized outcomes using RNG, symbol matching win logic,
 and payout simulation based on winning combinations.
 
-# Build Information
-A WebGL build issue was encountered where the game was not displaying properly in the browser environment.
-To ensure smooth testing and gameplay experience, an APK build has been included with the submission instead of the WebGL build.
+# Instructions to Run WebGL Build
+- Open the project folder in Visual Studio Code.
+- Navigate to the WebGL Build folder.
+- Locate the index.html file.
+- Right-click on the index.html file.
+- Select “Open with Live Server”.
+- The game will automatically open in your browser.
+- Set the browser zoom/aspect view to approximately 33% for complete game view
 
 
 # Thought Process / Approach
